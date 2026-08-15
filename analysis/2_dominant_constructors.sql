@@ -1,10 +1,9 @@
 -- Databricks notebook source
 -- MAGIC %md
 -- MAGIC # Analysis 2: Which constructors have dominated Formula 1 across eras?
--- MAGIC Built from `fact_constructor_standings` + `dim_constructors` - uses
+-- MAGIC Built from `fact_constructor_standings` + `dim_constructors`. It uses
 -- MAGIC the official end-of-season standings directly, rather than
--- MAGIC recalculating from race results, since that's exactly what this
--- MAGIC fact table already represents.
+-- MAGIC recalculating from race results.
 -- MAGIC
 
 -- COMMAND ----------

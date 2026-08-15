@@ -2,7 +2,7 @@
 -- MAGIC %md
 -- MAGIC # Analysis 3: Which circuits produce the most unpredictable races?
 -- MAGIC "Unpredictable" is measured as the average absolute difference between
--- MAGIC starting grid position and final race position - a circuit where
+-- MAGIC starting grid position and final race position, a circuit where
 -- MAGIC drivers frequently gain/lose many places (overtaking-friendly, high
 -- MAGIC strategy variance, high attrition) scores higher than a circuit where
 -- MAGIC grid position basically decides the finish (e.g. Monaco).

@@ -1,7 +1,7 @@
 -- Databricks notebook source
 -- MAGIC %md
 -- MAGIC # Analysis 4: How has pit stop speed evolved by constructor over time?
--- MAGIC `fact_pit_stops` doesn't carry constructor_id directly, so it's joined
+-- MAGIC `fact_pit_stops` doesn't carry constructor_id directly. Therefore, it's joined
 -- MAGIC through `fact_results` on (season, round, driver_id) to attach each
 -- MAGIC pit stop to the team that performed it, then to `dim_constructors`
 -- MAGIC for the display name.
